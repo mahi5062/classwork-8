@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+   char src[100], copy[100];
+   int i;
+
+   printf("Enter source string: ");
+   gets(src);
+
+   for (i = 0; src[i] != '\0'; i++) {
+      copy[i] = src[i];
+   }
+
+   copy[i] = '\0';
+
+   printf("Copied string is: %s\n", copy);
+
+   return 0;
+}
